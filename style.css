@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .row {
     flex-direction: row;
 }
@@ -72,10 +75,12 @@ body {
 .banner{
     background-image: url(./img/Banner.png);
     background-size: 100% 100%;
+    height: 657px;
 }
 .banner2{
     background-image: url(./img/Group2.png);
-    background-size: 90% 100%;
+    background-size: 97% 100%;
+    height: 657px;
 }
 
 .texto-cadastro{
