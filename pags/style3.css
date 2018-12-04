@@ -15,20 +15,27 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logonav {
-    border-right: 1px solid green;
+    border-right: 2px solid green;
 }
 .logo{
-    height: 70px;
+    height: 80px;
 }
 .saida{
     padding-right: 20px;
+    color: black;
 }
 .item1{
     padding-top: 30px !important;
+    color: black !important;
+    font-weight: bold !important;
 }
 .item2{
     padding-top: 30px !important;
+    color: black !important;
+    font-weight: bold !important;
 }
 .item3{
     padding-top: 30px !important;
+    color: black !important;
+    font-weight: bold !important;
 }
