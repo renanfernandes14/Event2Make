@@ -63,7 +63,7 @@
             <div class="row">
                 <div class="col ">
                     <h4 class="evento1">Local do evento</h4>
-                    <select class="form-control" id="exampleFormControlSelect1" placeholder="Selecionar" class="campo1">
+                    <select class="form-control on1" id="exampleFormControlSelect1" style="margin-top:40px;"  placeholder="Selecionar" class="campo1">
                         <option>Buffet</option>
                         <option>Lounge</option>
                         <option>Centro de convenções</option>
@@ -72,55 +72,57 @@
                     </select>
                 </div>
                 <div class="col ">
-                    <h4 class="evento2">Data:</h4>
-                    <input type="text" class="form-control" placeholder="00/00/0000" class="campo2">
+                    <h4 class="evento2">Quantidade de lotes</h4>
+                    <input type="text" class="form-control on2" placeholder="0" style="margin-top:40px;"  class="campo2">
                 </div>
                 <div class="col ">
-                    <h4 class="evento3">Número de pessoas:</h4>
-                    <input type="text" class="form-control" placeholder="0" class="campo3">
+                    <h4 class="evento3">Número esperado de pessoas:</h4>
+                    <input type="text" class="form-control on3" placeholder="0" style="margin-top:13px;"  class="campo3">
                 </div>
                 <div class="col">
-                    <h4 class="evento4">Orçamento estimado:</h4>
-                    <input type="text" class="form-control" placeholder="0,00" class="campo4">
+                    <h4 class="evento4">Valor por lote:</h4>
+                    <input type="text" class="form-control" style="margin-top:40px;" placeholder="0,00" class="campo4">
                 </div>
             </div>
         </form>
-        <h5 class="textomeio">Com base no valor de seu orçamento, preencha o valor do repasse de dinheiro orçado para
-            cada área do seu evento:</h5>
+        <h5 class="textomeio">Listar todos os custos previstos durante o evento:</h5>
         <br><br>
-        <form>
-            <div class="row">
-                <div class="col ">
-                    <h4 class="evento5">Financeiro</h4>
-                    <input type="text" class="form-control" placeholder="0,00" class="campo2">
-                </div>
-                <div class="col ">
-                    <h4 class="evento6">Estrutura:</h4>
-                    <input type="text" class="form-control" placeholder="0,00" class="campo2">
-                </div>
-                <div class="col ">
-                    <h4 class="evento7">Marketing:</h4>
-                    <input type="text" class="form-control" placeholder="0,00" class="campo3">
-                </div>
-                <div class="col">
-                    <h4 class="evento8">Conteúdo:</h4>
-                    <input type="text" class="form-control" placeholder="0,00" class="campo4">
-                </div>
+
+        <button type="button" class="btn btn-outline-dark btn-lg" style="margin-left:25px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Adicionar&nbsp;&nbsp;<i class="fas fa-plus"></i></button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="form-group">
+                    <label for="message-text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+              </div>
             </div>
-        </form>
-        <br><br>
-        <form>
-            <div class="row">
-                <div class="col-md-3 ">
-                    <h4 class="evento5">Financeiro</h4>
-                    <input type="text" class="form-control" placeholder="0,00" class="campo2">
-                </div>
-        </form>
+          </div>
+
     </div>
     <br><br>
     <button type="button" class="btn btn-outline-dark btn-lg botao1">Ver Planilha</button> 
     <button type="button" class="btn btn-secondary btn-lg botao2">Cancelar</button>
-    <a class="btn btn-success btn-lg botao3 type="button" href="./pag4.html" " >Avançar</button>
+    <button type="button " class="btn btn-success btn-lg botao3">Avançar</button>
     </div>
 
 
