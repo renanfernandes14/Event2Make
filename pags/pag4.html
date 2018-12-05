@@ -87,11 +87,58 @@
         </form>
         <h5 class="textomeio">Listar todos os custos previstos durante o evento:</h5>
         <br><br>
-
         <button type="button" class="btn btn-outline-dark btn-lg" style="margin-left:25px;" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Adicionar&nbsp;&nbsp;<i class="fas fa-plus"></i></button>
         <button type="button" class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Adicionar&nbsp;&nbsp;<i class="fas fa-plus"></i></button>
         <button type="button" class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Adicionar&nbsp;&nbsp;<i class="fas fa-plus"></i></button>
-        <button type="button" class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Adicionar&nbsp;&nbsp;<i class="fas fa-plus"></i></button>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#report">Launch modal</button>
+
+        <a class="btn btn-info btn-menu" href="#" title="Inscreva-se" id="newsletter-click">Inscreva-se</a>
+        <div id="modal-newsletter" class="modal fade">
+                <div class="modal-dialog modal-newsletter">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <div class="icon-box">
+                        <i class="material-icons">&#xE151;</i>
+                      </div>
+                      <h4>Inscreva-se</h4>
+                      <p>Se Inscreva para receber as novidades do Blog.</p>
+                      <form class="form-newsletter" id="form-newsletter" role="form">
+                        <div class="form-group">
+                          <label for="nome" class="d-none">Nome</label>
+                          <input type="nome" name="nome" id="nome" class="form-control" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email" class="d-none">Email</label>
+                          <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <button type="submit" id="form-newsletter-submit" class="btn btn-primary">
+                          Inscrever-se
+                        </button>
+                      </form>
+                    </div>
+          
+
+        <div id="report" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Some text in the modal.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -128,9 +175,7 @@
     <button type="button" class="btn btn-secondary btn-lg botao2">Cancelar</button>
     <button type="button " class="btn btn-success btn-lg botao3">Avançar</button>
     </div>
-
-
-
+    <script text-></script>
 </body>
 
 </html>
