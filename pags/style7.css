@@ -16,7 +16,7 @@
   .flex-item {
     background-image: url(../img/etapas.PNG);
     background-size: 100% 100%; 
-    width: 260px;
+    width: 190px;
     height: 50px;
     margin-top: 10px;   
     
@@ -32,11 +32,11 @@
     background-image: url(../img/etapasoff.png);
   }
   
-.bemvindo{
+  .bemvindo{
     padding-top: 9px;
     font-size: 16px;
     font-weight: bold;
-    padding-right: 90px;
+    padding-right:12px;
 }
 .navegar{
     padding-top: 25px !important;
@@ -54,27 +54,33 @@
     border-right: 2px solid green;
 }
 .logo{
-    height: 80px;
+    height: 60px;
 }
 .saida{
     padding-right: 20px;
     color: black;
 }
 .item1{
-    padding-top: 30px !important;
-    padding-left: 80px !important;
+    padding-top: 20px !important;
+    padding-left: 30px !important;
     color: black !important;
     font-weight: bold !important;
 }
 .item2{
-    padding-top: 30px !important;
-    padding-left: 80px !important;
+    padding-top: 20px !important;
+    padding-left: 30px !important;
     color: black !important;
     font-weight: bold !important;
 }
 .item3{
-    padding-top: 30px !important;
-    padding-left: 80px !important;
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+.item4{
+    padding-top: 20px !important;
+    padding-left: 40px !important;
     color: black !important;
     font-weight: bold !important;
 }
@@ -179,7 +185,6 @@
 }
 .tabela{
     margin-top: 50px;
-    border: 
     box-sizing: border-box;
 }
 .avancar{
@@ -194,4 +199,46 @@ a:hover{
 }
 .fa-check-circle {
     color: green;   
+}
+
+th{
+    text-align: center !important;
+}
+td{
+    text-align: center !important;
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+ body{
+     overflow-x:hidden;
+ }
+ .lateral{
+    padding-left: 30px;
+}
+.divresultado{
+    right: 58px;
+}
+.valorresultado{
+    border: none !important;
+}
+body{
+    overflow-x:hidden;
 }

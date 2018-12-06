@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registro.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
@@ -18,25 +18,41 @@
 <body>
     <section class="row" style="height: 650px;">
         <div class="item banner">
-            <img src="./img/LogoHorizontal_Principal.svg" alt="logo" class="logo">
+            <img src="../img/LogoHorizontal_Principal.svg" alt="logo" class="logo">
             <div class="divtexto">
                 <h2 class="texto">Fazer um evento nunca foi
                     <br>
-                     tão simples assim!</h2>
+                    tão simples assim!</h2>
             </div>
         </div>
         <div>
         </div>
         <div class="item banner2">
             <div>
-                <h5 class="entrareregistrar"><a href="./pags/pag2.html" id="logar">
+                <h5 class="entrareregistrar"><a href="./pag2.html" id="logar">
                         <br>
                         Entrar</a> Registrar</h5>
+                <br>
             </div>
             <form class="formulariologin">
                 <div class="form-group login">
-                    <h1 class="titulo3">Login</h1>
+                    <h1 class="titulo3">Registro</h1>
                     <br>
+                    <p class="textomeio">Não possui cadastro? Preencha os campos e organize seus eventos agora!</p>
+                    <div class="camponome">
+                        <h5>Nome</h5>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="campoprofissao">
+                    <h5>Profissão</h5>
+                        <select class="form-control" id="exampleFormControlSelect1" placeholder="Selecionar" class="campo1">
+                            <option>Buffet</option>
+                            <option>Lounge</option>
+                            <option>Centro de convenções</option>
+                            <option>Coworking</option>
+                            <option>Salão</option>
+                        </select>
+                    </div>
                     <div class="campologin">
 
                         <h5>Email:</h5>
@@ -50,7 +66,7 @@
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Preencha sua Senha">
                         <br>
                     </div>
-                    <p class="texto-cadastro">Ainda não possui cadastro? <a href="./pags/registro.html" class="cliqueaqui">Clique aqui</a>
+                    <p class="texto-cadastro">Já possui cadastro? <a href="../index.html" class="cliqueaqui"> Clique aqui </a> para logar e começar a aproveitar!</b>
                         <br>
 
                 </div>
