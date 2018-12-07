@@ -1,0 +1,267 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
+    background-image: url(../img/etapas.PNG);
+    background-size: 100% 100%; 
+    width: 230px;
+    height: 50px;
+    margin-top: 10px;   
+    
+    line-height: ;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+  }
+  .off{
+    background-image: url(../img/etapasoff.png);
+  }
+  
+.bemvindo{
+    padding-top: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right:12px;
+}
+.navegar{
+    padding-top: 25px !important;
+}
+.conteudo{
+    margin-top: 40px; 
+    margin-left: 17px;
+    width: 98%;
+    height: 900px;
+    border: 1px solid #939191;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logonav {
+    border-right: 2px solid green;
+}
+.logo{
+    height: 60px;
+}
+.saida{
+    padding-right: 20px;
+    color: black;
+}
+.item1{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+.item2{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+.item3{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+.item4{
+    padding-top: 20px !important;
+    padding-left: 40px !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+.titulo{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.subtitulo{
+    padding-left:30px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 22px;
+    color: #202020;
+}
+.form-group{
+    padding-top: 30px;
+    padding-left: 30px;
+    max-width: 250px;
+
+}
+.exampleFormControlSelect1{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/////////////////
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.form-control{
+    width: 85% !important;
+    margin-left: 25px;
+}
+.evento1{
+    padding-left: 25px;
+}
+.evento2{
+    padding-left: 25px;
+}
+.evento3{
+    padding-left: 25px;
+}
+.evento4{
+    padding-left: 25px;
+}
+.evento5{
+    padding-left: 25px;
+}
+.evento6{
+    padding-left: 25px;
+}
+.evento7{
+    padding-left: 25px;
+}
+.evento8{
+    padding-left: 25px;
+}
+
+.textomeio{
+    padding-top: 50px;
+    padding-left: 25px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    color: #202020;
+}
+.botoes{
+    padding-top: 50px;
+}
+.botao1{
+    margin-left: 67%;
+}
+.botao2{
+    margin-left: 2%;
+}
+.botao3{
+        margin-left: 2%;
+        background: #1AC491 !important;
+        border: 1px solid transparent !important;
+        line-height: 1.5 !important;
+        border-radius: .3rem !important;
+        padding: .5rem 1rem !important;
+        font-size: 1.25rem !important;
+        line-height: 1.5 !important;
+        border-radius: .3rem !important;
+}
+
+.botao1{
+    margin-left: 75%;
+}
+.on1{
+    margin-top: 42px !important;
+}
+.on2{
+    margin-top: 41px !important;
+}
+.tabela{
+    margin-top: 50px;
+    border: 
+    box-sizing: border-box;
+    
+}
+th{
+    text-align: center !important;
+}
+td{
+    text-align: center !important;
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+ .lateral{
+     padding-left: 30px;
+ }
+ .divresultado{
+     right: 58px;
+ }
+ .valorresultado{
+     border: none !important;
+ }
+ body{
+     overflow-x:hidden;
+ }
+.titulomodal{
+    padding-left: 25px;
+}
+.form1{
+padding-left: 155px;
+}
+.form2{
+    padding-left: 160px;
+}
+.form3{
+    padding-left: 145px;
+}
+#exampleFormControlSelect1{
+    margin-left: 60px;
+    width: 260px !important;
+}
+.valorcobrado{
+    margin-left: 60px;
+    width: 260px !important;
+}
+.servico{
+    margin-left: 60px;
+    width: 260px !important; ;
+}
+.botaomodal{
+    margin-left: 2%;
+    background: #1AC491 !important;
+    border: 1px solid transparent !important;
+
+}
+.botaosim{
+    background: #1AC491 !important;
+    border: 1px solid transparent !important;
+}
