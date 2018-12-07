@@ -97,53 +97,60 @@
             data-target="#exampleModal" id="btn"  data-whatever="@mdo">Adicionar custo&nbsp;&nbsp;<i class="fas fa-plus"></i></button>
 
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Nova mensagem</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                  <div class="modal-header">
+                    <h5 class="modal-title titulomodal" id="exampleModalLabel">Adicionar Novo Serviço</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-group ">
+                      <label for="exampleFormControlSelect1" class="form1">Serviço:</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Palestrante</option>
+                        <option>Orador</option>
+                        <option>Mediador</option>
+                        <option>Mestre de Cerimônia</option>
+                      </select>
                     </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Destinatário:</label>
-                                <input type="text" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Mensagem:</label>
-                                <textarea class="form-control" id="message-text"></textarea>
-                            </div>
-                        </form>
+                    <div class="form-group ">
+                      <label for="recipient-name" class="col-form-label form2">Valor:</label>
+                      <input type="text" class="form-control valorcobrado" id="recipient-name">
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                        <button type="button" class="btn btn-primary">Enviar</button>
+                    <div class="form-group ">
+                      <label for="message-text " class="col-form-label form3">Serviço:</label>
+                      <textarea class="form-control servico" id="message-text"></textarea>
                     </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <a href="pag6pt2.html"><button type="button" class="btn btn-primary botaomodal">Enviar</button></a>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
         <div class="container">
         <table class="table tabela">
                 <thead>
                   <tr>
                     <th class="titulotabela" scope="col">Serviço</th>
-                    <th class="titulotabela" scope="col">Prioridade</th>
+                    <th class="titulotabela" scope="col">Valor</th>
                     <th class="titulotabela" scope="col">Descrição</th>
                     <th class="titulotabela" scope="col">Ação</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
+                    <th scope="row">Palestrante</th>
+                    <td>R$ 100,00</td>
+                    <td>Palestrante para o evento</td>
                     <td><i class="fas fa-check-circle fa-2x"style="color:green; "></i>&nbsp;&nbsp;<i class="fas fa-times-circle fa-2x" style="color:green;"></i></td>
                   </tr>
-                  <tr>
+                  <!-- <tr>
                     <th scope="row">2</th>
                     <td>Jacob</td>
                     <td>Thornton</td>
@@ -154,7 +161,7 @@
                     <td>Larry</td>
                     <td>the Bird</td>
                     <td>@twitter</td>
-                  </tr>
+                  </tr> -->
                 </tbody>
               </table>
             </div>
@@ -162,7 +169,7 @@
                     <form>
                         <div class="row">
                             <div class="col-md-3 ">
-                                <h3 class="lateral">Total (R$):</h3>
+                                <h3 class="lateral">Total (R$): 100,00</h3>
                             </div>
                             <div class="col-md-3 divresultado ">
                                 <input type="text" class="form-control valorresultado" placeholder="" class="campo2">

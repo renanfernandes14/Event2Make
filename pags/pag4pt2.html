@@ -67,15 +67,14 @@
       <div class="row">
         <div class="col ">
           <h4 class="evento1">Local do evento</h4>
-          <select class="form-control on1" id="exampleFormControlSelect1" style="margin-top:40px;" placeholder="Selecionar"
-            class="campo1">
+          <select class="form-control on1" id="exampleFormControlSelect1" style="margin-top:40px;" class="campo1">
+            <option>Anhembi</option>
             <option>PRO MAGNO</option>
             <option>Rooftop 5 & Centro de Convenções</option>
             <option>Centro de Convenções Frei Caneca</option>
             <option>Expo Center Norte</option>
             <option>Transamerica Expo Center</option>
             <option>São Paulo Expo</option>
-            <option>Anhembi</option>
             <option>Centro de Eventos Rio Negro</option>
             <option>Centro de Convenções Rebouças</option>
             <option>Fundação Bienal de São Paulo</option>
@@ -87,15 +86,15 @@
         </div>
         <div class="col ">
           <h4 class="evento2">Quantidade de lotes</h4>
-          <input type="text" class="form-control on2" placeholder="2" style="margin-top:40px;" class="campo2" />
+          <input type="text" class="form-control on2" placeholder="5" style="margin-top:40px;" class="campo2" />
         </div>
         <div class="col ">
           <h4 class="evento3">Número esperado de pessoas:</h4>
-          <input type="text" class="form-control on3" placeholder="50" style="margin-top:13px;" class="campo3" />
+          <input type="text" class="form-control on3" placeholder="300" style="margin-top:13px;" class="campo3" />
         </div>
         <div class="col">
           <h4 class="evento4">Valor por lote:</h4>
-          <input type="text" class="form-control" style="margin-top:40px;" placeholder="150,00" class="campo4" />
+          <input type="text" class="form-control" style="margin-top:40px;" placeholder="100,00" class="campo4" />
         </div>
       </div>
     </form>
@@ -127,12 +126,11 @@ Close
 </div>
 </div>
 </div>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
-<h5 class="modal-title" id="exampleModalLabel">Nova mensagem</h5>
+<h5 class="modal-title" id="exampleModalLabel">Adicionar novo serviço</h5>
 <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
 <span aria-hidden="true">&times;</span>
 </button>
@@ -140,19 +138,28 @@ aria-hidden="true">
 <div class="modal-body">
 <form>
 <div class="form-group">
-<label for="recipient-name" class="col-form-label">Destinatário:</label>
-<input type="text" class="form-control" id="recipient-name" />
+<label for="exampleFormControlSelect1">Example select</label>
+<select class="form-control" id="exampleFormControlSelect1" >
+<option>CRM do evento</option>
+<option>Time de Marketing</option>
+<option>Brindes</option>
+<option>Impressos promocionais</option>
+<option>Assessoria de Imprensa</option>
+<option>Compra de mídia</option>
+</select>
 </div>
 <div class="form-group">
-<label for="message-text" class="col-form-label">Mensagem:</label>
+<label for="recipient-name" class="col-form-label">Destinatário:</label>
+<input type="text" class="form-control" id="recipient-name">
+</div>
+<div class="form-group">
+<label for="message-text" class="col-form-label">Serviço:</label>
 <textarea class="form-control" id="message-text"></textarea>
 </div>
 </form>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-secondary" data-dismiss="modal">
-Fechar
-</button>
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
 <button type="button" class="btn btn-primary">Enviar</button>
 </div>
 </div>
@@ -163,30 +170,30 @@ Fechar
 <thead>
 <tr>
 <th scope="col">Serviço</th>
-<th scope="col">Prioridade</th>
+<th scope="col">Valor</th>
 <th scope="col">Descrição</th>
 <th scope="col">Ação</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th scope="row">1</th>
-<td>Mark</td>
-<td>Otto</td>
+<th scope="row">Luz</th>
+<td>R$ 1000,00</td>
+<td>Iluminação geral do evento</td>
 <td><i class="fas fa-check-circle fa-2x" style="color:green; "></i>&nbsp;&nbsp;<i class="fas fa-times-circle fa-2x" style="color:green;"></i></td>
 </tr>
 <tr>
-<th scope="row">2</th>
-<td>Jacob</td>
-<td>Thornton</td>
-<td>@fat</td>
+<!-- <th scope="row"></th>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<th scope="row">3</th>
-<td>Larry</td>
-<td>the Bird</td>
-<td>@twitter</td>
-</tr>
+<th scope="row"></th>
+<td></td>
+<td></td>
+<td></td>
+</tr> -->
 </tbody>
 </table>
 </div>
@@ -194,7 +201,7 @@ Fechar
 <form>
 <div class="row">
 <div class="col-md-3 ">
-<h3 class="lateral">Total (R$): 2500,00 </h3>
+<h3 class="lateral">Total (R$):1000,00 </h3>
 </div>
 <div class="col-md-3 divresultado ">
 <input type="text" class="form-control valorresultado" placeholder="" class="campo2">
