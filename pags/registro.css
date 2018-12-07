@@ -82,10 +82,17 @@ body {
     background-size: 97% 100%;
     height: 657px;
 }
+}
+.opcao1{
+    left: 215px;;;
+    background-color: #1AC491 !important; 
+    border-color: #1AC491 !important;
+}
 
 .texto-cadastro{
     padding-left: 90px;
     text-align: justify;
+    margin-bottom: 0px !important; 
 }
 a {  color: green !important;
 }
@@ -95,7 +102,7 @@ a {  color: green !important;
 }
 
 .formulariologin {
-    padding: 10px 5px 5px 5px;
+    padding: 10px 5px 5px px;
     width: 70%;
 }
 .form-control {
@@ -128,4 +135,9 @@ a {  color: green !important;
 .textomeio{
     padding-left: 90px;
     font-size: 15px;
+}
+.botaoregistrar{
+        padding-top: px;
+        padding-left: 110px;
+        padding-bottom: 15px;
 }

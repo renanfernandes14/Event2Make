@@ -228,3 +228,33 @@ a{
  body{
      overflow-x:hidden;
  }
+ .titulomodal{
+    padding-left: 25px;
+}
+.form1{
+padding-left: 160px;
+}
+.form2{
+    padding-left: 160px;
+}
+.form3{
+    padding-left: 160px;
+}
+#exampleFormControlSelect1{
+    margin-left: 60px;
+    width: 260px !important;
+}
+.valorcobrado{
+    margin-left: 60px;
+    width: 260px !important;
+}
+.servico{
+    margin-left: 60px;
+    width: 260px !important; ;
+}
+.botaomodal{
+    margin-left: 2%;
+    background: #1AC491 !important;
+    border: 1px solid transparent !important;
+
+}
