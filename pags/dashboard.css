@@ -1,3 +1,7 @@
+
+.integrarcrcm{
+    padding-bottom: 50px !important;
+}
 .flex-container {
     padding: 0;
     margin: 0;
@@ -81,7 +85,7 @@ background-color: #D1CDCD;
 .titulo{
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center;
+    padding-left: 450px;
 }
 .subtitulo{
     padding-left:30px;
