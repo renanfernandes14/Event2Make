@@ -159,7 +159,7 @@
     padding-left: 25px;
 }
 .botao1{
-    margin-left: 70%;
+    margin-left: 75%;
 }
 .botao2{
     margin-left: 2%;
@@ -180,7 +180,7 @@ a{
     text-decoration: none !important;
 }
 .dia{
-    padding-top: 65px;
+    padding-top: 38px;
     right:30px;
 }
 ::-webkit-input-placeholder {
@@ -199,19 +199,19 @@ a{
     text-align: center; 
  }
  .on0{
-    margin-top: 43px;;
+    margin-top: 43px;
  }
  .on1{
-    margin-top: 43px;;
+    margin-top: 43px;
  }
  .on2{
-    margin-top: 15px;;
+    margin-top: 43px;
 }
 .on3{
-    margin-top: 15px;;
+    margin-top: 43px;
 }
 .on4{
-    margin-top: 15px;;
+    margin-top: 20px;
 }
 
  body{

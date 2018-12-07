@@ -94,15 +94,15 @@
         </div>
         <div class="col ">
           <h4 class="evento2">Quantidade de lotes</h4>
-          <input type="text" class="form-control on2" placeholder="0" style="margin-top:40px;" class="campo2" />
+          <input type="text" class="form-control on2" placeholder="2" style="margin-top:40px;" class="campo2" />
         </div>
         <div class="col ">
           <h4 class="evento3">Número esperado de pessoas:</h4>
-          <input type="text" class="form-control on3" placeholder="0" style="margin-top:13px;" class="campo3" />
+          <input type="text" class="form-control on3" placeholder="50" style="margin-top:13px;" class="campo3" />
         </div>
         <div class="col">
           <h4 class="evento4">Valor por lote:</h4>
-          <input type="text" class="form-control" style="margin-top:40px;" placeholder="0,00" class="campo4" />
+          <input type="text" class="form-control" style="margin-top:40px;" placeholder="150,00" class="campo4" />
         </div>
       </div>
     </form>
@@ -142,38 +142,32 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title titulomodal" id="exampleModalLabel">Adicionar Novo Serviço</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Nova mensagem</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-                      <div class="form-group ">
-                              <label for="exampleFormControlSelect1" class="form1">Serviço:</label>
-                              <select class="form-control" id="exampleFormControlSelect1">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                  <div class="form-group ">
-                      <label for="recipient-name" class="col-form-label form2">Valor:</label>
-                      <input type="text" class="form-control valorcobrado" id="recipient-name">
-                  </div>
-                  <div class="form-group ">
-                      <label for="message-text " class="col-form-label form3">Serviço:</label>
-                      <textarea class="form-control servico" id="message-text"></textarea>
-                  </div>
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Destinatário:</label>
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Mensagem:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
           </div>
           <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-              <a href="pag4pt2.html"><button type="button" class="btn btn-primary botaomodal">Enviar</button></a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+              Fechar
+            </button>
+            <button type="button" class="btn btn-primary">Enviar</button>
           </div>
+        </div>
       </div>
-  </div>
-</div>
+    </div>
     <div class="container">
       <table class="table tabela">
         <thead>
@@ -186,22 +180,23 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td></i></td>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td><i class="fas fa-check-circle fa-2x" style="color:green; "></i>&nbsp;&nbsp;<i class="fas fa-times-circle fa-2x"
+                style="color:green;"></i></td>
           </tr>
           <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td></td>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
           </tr>
           <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td></td>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
           </tr>
         </tbody>
       </table>
@@ -210,7 +205,7 @@
         <form>
             <div class="row">
                 <div class="col-md-3 ">
-                    <h3 class="lateral"></h3>
+                    <h3 class="lateral">Total (R$): 2500,00 </h3>
                 </div>
                 <div class="col-md-3 divresultado ">
                     <input type="text" class="form-control valorresultado" placeholder="" class="campo2">
@@ -221,7 +216,7 @@
       <button type="button" class="btn btn-secondary btn-lg  botao1">
         Cancelar
       </button>
-      <a href="pag5.html"><button type="button" class="btn btn-success btn-lg">Avançar</button></a>
+      <a href="pag5.html"><button type="button" class="btn btn-success btn-lg botao3">Avançar</button></a>
     </div>
   </div>
 </body>
